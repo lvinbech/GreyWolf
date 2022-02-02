@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    margin: 0%;
+    z-index: 1;
+}
+h2 {
+    color: white;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: #F0EFEF;
+    padding: 0px;
+    margin: 0;
+    height: 79px;
+    display: flex;
+    justify-content: space-around;
+}
+header  ul{
+    text-align: center;
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    padding-right: 15px;
+    color: #B7BCB4;
+}
+
+header li {
+    display: inline; 
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+}
+header li img {
+    height: 22px;
+    position: relative;
+}
+section {
+    padding: 0 37px;
+}
+section:nth-of-type(1) {
+    padding-top: 150px;
+
+}
+img {
+    max-width: 100%;
+}
+
+section:nth-of-type(2) {
+    padding-top: 80px;
+    text-align: center;
+
+}
+img {
+    max-width: 100%;
+}
+
+section:nth-of-type(3) {
+    padding-top: 520px;
+    text-align: center;
+
+}
+img {
+    max-width: 100%;
+}
+.kategori article {
+    width: 140px;
+    height: 213px;
+    background-size: cover;
+    float: right;
+    margin: 5px;
+}
+.kategori article:nth-of-type(1) {
+    background-image: url(billeder/strik.jpeg);
+}
+.kategori article:nth-of-type(2) {
+    background-image: url(billeder/jeans.jpeg);
+}
+.kategori article:nth-of-type(3) {
+    background-image: url(billeder/SHIRT.jpeg);
+}
+.kategori article:nth-of-type(4) {
+    background-image: url(billeder/jacket.jpeg);
+}
+h3 {
+    color: #859587;
+    text-decoration: underline;
+}
+
+div a h4 {
+    position: relative;
+    top: 130px;
+    background-color: white;
+    padding: 12px 21px 12px;
+    margin: 25px;
+    color: #000000;
+    font-size: 15px;
+}
+div a {
+    text-decoration: none;
+    position: relative;
+    
+}
+.org {
+    background-image: url(billeder/organisation.png);
+    height: 283px;
+    width: 300px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+div a h5 {
+    position: relative;
+    background-color: white;
+    padding: 12px 21px 12px;
+    margin: 25px;
+    color: #000000;
+    font-size: 15px;
+    margin: 25px;
+    top: 220px;
+}
+
+/*
+div a h5 {
+    background-image: url(billeder/organisation.png);
+    height: 283px;
+    width: 300px;
+    background-size: cover;
+    
+}
+.knap {
+    background-color: white;
+} */
+
+
+
+/* Kategorisiden */
+.produkt {
+    display:inline-block;
+    width: 172px;
+    height: 241px;
+    text-align: center;
+    border: 1px solid black;
+    margin-left:9px;
+    margin-bottom: 89px;
+    margin-top: 30px;
+}
+
+.produkt img {
+   display: inline-block;
+   width: 169px; 
+   margin:0;
+   height: 238px;
+   margin-top:0px;
+   object-fit: contain;
+   object-position: center;
+}
+.produkt h2{
+    font-size: 11px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:10px 0 0 0;
+    color: black;
+}
+.produkt p {
+    font-size: 11px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:10px 0 0 0;
+ }
+
+ .down {
+     margin: 0;
+ }
+
+ .up {
+     font-weight: bold;
+ }
+
+span:not(.dot) {
+    display: block;
+    position:static;
+    font-size: 10px;
+    color: #859587;
+    padding: 80px 0 20px 0;
+    margin: 20px;
+    font-weight: bold;
+}
+
+main {
+    padding:18px 0 37px 0;
+}
+
+/* OM OS siden */
+
+section {
+    padding: 0 37px;
+}
+section:nth-of-type(1) {
+    padding-top: 158px;
+}
+.om {
+    background-image: url(billeder/stofruller.png);
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    text-align: center;
+    color: #859587;
+    font-size: 20px;
+    margin:89px 0 0 0;
+    padding: 30px 0 30px;
+}
+   
+.overskrift1 {
+    color: #000000;
+    text-decoration: none;
+}
+
+.divBillede {
+    align-items: center;
+    margin: 40px 0;
+    height: 60vh;
+    padding: 0 10% 0 10%;
+}
+.Billede1{
+    max-width: 100%;
+}
+.overskrift1{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 0;
+}
+#FørsteTekst{
+    color: #000000;
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: 15px;
+}
+#Organisationer{
+    color: #859587;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 16px;
+}
+.divSkildpadde{
+    margin: 40px 0;
+    height: 60vh;
+    padding: 0 10% 0 10%;
+}
+.Billede2{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.dots{
+    width: 100%;
+    padding: 0 30% 0 40%;
+    float: right;
+}
+.dot1 {
+    height: 23px;
+    width: 23px;
+    background-color: #859587;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot2 {
+    height: 23px;
+    width: 23px;
+    background-color: #BFD3C2;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot3 {
+    height: 23px;
+    width: 23px;
+    background-color: #BFD3C2;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .tekstOmKlima{
+    font-size: 15px;
+    padding: 10% 10% 10% 10%;  
+    text-align: center;  
+    margin: 0;
+}
+/* BURGER MENU */
+
+.topnav #myLinks {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    text-align: left;
+  }
+  
+  #myLinks li {
+display: block;
+background-color: #F0EFEF;
+width: 240px;
+height: 55px;
+padding: 20px 30px;
+
+}
+#myLinks li:nth-of-type(even) {
+    background-color: white;
+    }
+#myLinks li a {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+i {
+    color: #B7BCB4;
+    padding-top: 20px;
+}
+
+
+
+/* PRODUKTSIDEN */
+.toptekst{
+    display: block;
+    position:static;
+    font-size: 10px;
+    color: #859587;
+    padding: 90px 0 40px 0;
+    margin: 10px;
+    font-weight: bold;
+}
+.billede1{
+    display:inline-block;
+    top: 40px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    margin-left:37px;
+    clear: both;
+    padding-top: 10px;
+}
+
+.skjorte{
+    display: inline-block;
+    width: 250px; 
+    margin:0;
+    height: 350px;
+    margin-top:0px;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.billedtekst{
+    padding: 20px 37px;
+    position: relative;
+}
+.like{
+    display: list-item;
+    float: right;
+    top: 25px;
+    position:absolute ;
+    right: 46px;
+    margin-bottom: 0;
+}
+h1{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.pris{
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+}
+.størrelse{
+    font-size: 15px;
+    text-align: left;
+    border: 1px solid black;
+    padding:10px;
+    margin:30px 60px 0 60px;
+}
+.pilned{
+    position: absolute;
+    right: 75px;
+    top: 15px;  
+}
+.reletive{
+    position: relative;
+}
+.lægikurv{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 35px;
+    border: 1px solid #B0B79E;
+    padding:10px;
+    margin: 10px 60px 0 60px;
+    background-color: #B0B79E;
+}
+.strguide{
+    font-size: 12px;
+    text-align: left;
+    border: 1px solid #000000;
+    padding: 5px 15px;
+    margin: 30px 225px 0px 30px;
+}
+.beskrivelse{
+    font: 14px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.tekst{
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 20px;
+}
+.ekstrakøb h3 {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.købogså{
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #F0EFEF;
+    background-color: #F0EFEF;
+    margin: 40px 120px 0 10px;
+}
+.ekstrakøb{
+    height: 200px;
+}
+.købmere {
+    float: left;
+    width: 20%;
+    border: 1px solid #000000;
+    margin: 22px;
+    height: 125px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .populært{
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #F0EFEF;
+    background-color: #F0EFEF;
+    margin: 20px 120px 0 20px;
+  }
+  
+.populærtligenu {
+    float: left;
+    width: 20%;
+    border: 1px solid #000000;
+    margin: 22px;
+    height: 125px;
+    background-color: white;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  footer {
+    font-size: 12px;
+    background-color: black;
+    height: 100%;
+    padding: 0 37px;
+}
+ 
+footer img {
+    display: inline-block;
+    height: 61.05px;
+    padding: 20px 10px 20px 0;
+}
+ 
+.grey {
+    height: 30px;
+    font-size: 12px;
+    color: white;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+ 
+.info {
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+ 
+.inspiration {
+    display: flex;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+ 
+}
